@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Sistem Rekapitulasi Nilai</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Sistem Rekapitulasi Nilai</div>
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="tambah-nilai.html">Tambah Nilai</a></li>
+            <li><a href="rekapitulasi.html">Rekapitulasi</a></li>
+            <li><a href="#" id="logout">Logout</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Dashboard</h1>
+        <div class="dashboard-summary">
+            <div class="summary-card">
+                <h2>Total Mahasiswa</h2>
+                <p id="total-mahasiswa">0</p>
+            </div>
+            <div class="summary-card">
+                <h2>Rata-rata Nilai</h2>
+                <p id="rata-rata-nilai">0</p>
+            </div>
+            <div class="summary-card">
+                <h2>Mata Kuliah</h2>
+                <p id="total-matakuliah">0</p>
+            </div>
+        </div>
+        <h2>Data Mahasiswa dan Nilai</h2>
+        <table id="tabel-mahasiswa">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>NIM</th>
+                    <th>Mata Kuliah</th>
+                    <th>Nilai</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data akan diisi oleh JavaScript -->
+            </tbody>
+        </table>
+    </main>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

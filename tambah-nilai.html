@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Nilai - Sistem Rekapitulasi Nilai</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <nav>
+        <!-- Sama seperti di dashboard.html -->
+    </nav>
+    <main>
+        <h1>Tambah Nilai Mahasiswa</h1>
+        <form id="form-nilai">
+            <input type="text" id="nama" placeholder="Nama Mahasiswa" required>
+            <input type="text" id="nim" placeholder="NIM" required>
+            <input type="text" id="matakuliah" placeholder="Mata Kuliah" required>
+            <input type="number" id="nilai" placeholder="Nilai" min="0" max="100" required>
+            <button type="submit">Tambah Nilai</button>
+        </form>
+    </main>
+    <script src="js/tambah-nilai.js"></script>
+</body>
+</html>
